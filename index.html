@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./main.css">
+    <title>Currículo - Cauê</title>
+</head>
+<body>
+    <header> 
+        <div class="container">
+            <h1>Currículo - Cauê</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <div class="about-content">
+                <img class="picture" src="./imagem/caue.jpg" alt="Cauê Vinicius Hermes" />
+                <div class="about-text">
+                    <p>Olá! Meu nome é Cauê Vinicius Hermes e tenho 25 anos!</p>
+                    <p>Sou ex-servidor público e atualmente trabalho junto a empresa RHGestor na posição de Analista de Suporte na área de Sucesso do Cliente - Onboarding!</p>
+                    <p>Sou graduado em Direito em 2022, com aprovação no XXXIII Exame de Ordem dos Advogados do Brasil e em outros quatro concursos públicos. Atualmente, estou expandindo meus horizontes acadêmicos com minha segunda graduação na área da Tecnologia da Informação, cursando Análise e Desenvolvimento de Sistemas pela UNINTER.</p>
+                    <p>Amplamente versado em conhecimentos jurídicos, legais e regulatórios, com sólida experiência em suporte e sucesso ao cliente.</p>
+                    <p>Entusiasta da área de programação, com habilidades em Front-End e Back-End (Java e C#)</p>                
+                    <p>Altamente proativo, interessado e comprometido com a excelência em todas as minhas atividades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <div class="container">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Bacharel em Direito</strong> - Universidade de Santa Cruz do Sul (2017 - 2022)</li>
+                <li><strong>Análise e Desenvolvimento de Sistemas</strong> - UNINTER (2024 - 2026)</li>
+                <li><strong>Curso de Desenvolvimento Back-End e Front-end</strong> - Escola Britânica de Artes Criativas e Tecnologia (2023 - 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolio-item">
+                <h3>Website para Loja de Games - GAMESHOP</h3>
+                <p>Desenvolvimento de um site de e-commerce simples, contendo abas de sobre a loja, produtos, informações adicionais e campos para entrar em contato.</p>
+                <p>https://projeto-gameshop-five.vercel.app/</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Cálculadora de Médias</h3>
+                <p>Desenvolvimento de um Website para calcular médias. Deverá ser posto uma nota entre 0-10 para que seja calculadas suas médias.</p>
+                <p>https://projeto-gameshop-five.vercel.app/</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Website contendo uma receita de brownie - CookingCourse</h3>
+                <p>Desenvolvimento de um site simples contendo a receita completa de um brownie!</p>
+                <p>https://projeto-cookingcourse.vercel.app/</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em contato comigo!</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="name" required>
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" maxlength="15" required>
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>© 2024 - Todos os direitos reservados - @author cauevinnicius</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="https://facebook.com/cauevinnicius" target="_blank">
+                        <img src="./icones/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/cauevinnicius" target="_blank">
+                        <img src="./icones/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/cauevinnicius" target="_blank">
+                        <img src="./icones/youtube.png" alt="YouTube">
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    </footer>
+</body>
+</html>
